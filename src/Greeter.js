@@ -1,10 +1,10 @@
 import React from "react"
 
-function Greeter(props) {
+function Greeter({name, age}) {
 return (   
     <> 
-    <h1>Hi there, {props.name}</h1>
-    <p>I know that you are {props.age} years old</p>
+    <h1>Hi there, {name}</h1>
+    <p>I know that you are {age} years old</p>
     </>
 ) 
 }
