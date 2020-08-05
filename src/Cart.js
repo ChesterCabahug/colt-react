@@ -8,7 +8,7 @@ const Cart = ({initialItems}) => {
             <h1>I AM CART</h1>
             <div className="Cart-items"></div>
             {initialItems.map(item => (
-                    <CartItem {...item}/>
+                    <CartItem key={item.id} {...item}/>
                 ))}    
             
             
