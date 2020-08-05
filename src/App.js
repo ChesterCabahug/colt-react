@@ -2,13 +2,15 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Greeter from './Greeter';
-import Counter from "./Counter"
+import Counter from "./Counter";
+import MoodToggler from "./MoodToggler";
 
 function App() {
   return (
     <div>
       <Counter step={5}/>
       <Counter/>
+      <MoodToggler/>
       <Navbar/>
       <Greeter name="Chester" age="19" excitement={4}/>
       <Greeter name="Chri" excitement={2}/>
