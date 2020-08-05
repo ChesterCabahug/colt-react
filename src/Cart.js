@@ -1,17 +1,17 @@
 import React from "react"
+import CartItem from "./CartItem"
 
 
 const Cart = ({initialItems}) => {
     return (
-        <div>
+        <div className="Cart">
             <h1>I AM CART</h1>
-            <ul>
-                {initialItems.map(item => (
-                    <li>
-                        Name: {item.name}
-                    </li>
-                ))}
-            </ul>
+            <div className="Cart-items"></div>
+            {initialItems.map(item => (
+                    <CartItem {...item}/>
+                ))}    
+            
+            
             
         </div>
     )
