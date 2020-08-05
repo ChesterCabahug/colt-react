@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import "./Counter.css"
 
 
 const Counter = ({step = 1}) => {

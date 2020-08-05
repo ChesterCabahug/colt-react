@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
 import Navbar from './Navbar';
 import Greeter from './Greeter';
 import Counter from "./Counter";
 import MoodToggler from "./MoodToggler";
+import './App.css';
+
 
 function App() {
   return (
