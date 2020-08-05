@@ -1,7 +1,10 @@
-h2 {
+.Counter {
+    border: 2px solid black;
+    width: 200px;
+    margin: 1rem auto;
     text-align: center;
 }
 
-button {
-    font-size: 4rem;
+.Counter button {
+    font-size: 1rem;
 }
