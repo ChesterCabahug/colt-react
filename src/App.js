@@ -3,12 +3,14 @@ import Navbar from './Navbar';
 import Greeter from './Greeter';
 import Counter from "./Counter";
 import MoodToggler from "./MoodToggler";
+import Cart from "./Cart"
 import './App.css';
 
 
 function App() {
   return (
     <div>
+      <Cart/>
       <Counter step={5}/>
       <Counter/>
       <MoodToggler/>
