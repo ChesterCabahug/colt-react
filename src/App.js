@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <Greeter name="Chester" age="19"/>
-      <Greeter name="Chri" />
+      <Greeter name="Chester" age="19" excitement={4}/>
+      <Greeter name="Chri" excitement={2}/>
       <h1>Hello from App!!!!</h1>
     </div>
   );
